@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-examples"
+version = "0.1.0"
+description = ""
+authors = ["Ryuhei Ishibashi <rysh.cact@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
