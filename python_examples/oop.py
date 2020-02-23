@@ -8,6 +8,9 @@ class Hoge:
     def multiply(self):
         return self.a * self.b
 
+    def __str__(self):
+        return self.name
+
 
 x = Hoge(2,3)
 print("1: ", x.name, x.a, x.b, x.multiply())
